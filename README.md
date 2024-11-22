@@ -1,1 +1,1 @@
-## PEP šablon 45x45
+## Set štampanih ploča namenjenih za učenje elektronike
