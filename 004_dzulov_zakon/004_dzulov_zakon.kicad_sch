@@ -5,10 +5,130 @@
 	(uuid "4bec5ddf-adbf-41fb-a069-c7630bb0044a")
 	(paper "A5")
 	(title_block
-		(title "Redna i paralelna otpornost")
+		(title "Džulov zakon")
 		(rev "v1")
 	)
 	(lib_symbols
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
 				(offset 1.016) hide)
@@ -317,6 +437,104 @@
 				)
 			)
 		)
+		(symbol "Mechanical:Heatsink"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "HS"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Heatsink"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0.3048 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Heatsink"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "thermal heat temperature"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Heatsink_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Heatsink_0_1"
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.9652 1.27) (xy -0.9652 3.81) (xy -1.6002 3.81) (xy -1.6002 1.27) (xy -2.2352 1.27)
+						(xy -2.2352 3.81) (xy -2.8702 3.81) (xy -2.8702 0) (xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3302 1.27) (xy -0.3302 3.81) (xy 0.3048 3.81) (xy 0.3048 1.27) (xy 0.9398 1.27) (xy 0.9398 3.81)
+						(xy 1.5748 3.81) (xy 1.5748 1.27) (xy 2.2098 1.27) (xy 2.2098 3.81) (xy 2.8448 3.81) (xy 2.8448 0)
+						(xy -0.9652 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
 				(offset 1.016)
@@ -503,10 +721,28 @@
 		(uuid "30dc8502-ee2e-4daa-b4da-46819480ef73")
 	)
 	(junction
-		(at 100.33 30.48)
+		(at 125.73 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ddc336ad-7eb0-4b5d-938b-aabbdab39dd0")
+		(uuid "5d19661a-1ee7-4123-9fc6-1ba875acd6cb")
+	)
+	(junction
+		(at 102.87 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61950e56-2154-44be-8cb6-9f32a4b390fe")
+	)
+	(junction
+		(at 90.17 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab891ec0-4f1b-4b90-b93d-9210e7017720")
+	)
+	(junction
+		(at 125.73 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b11ce6b8-7309-46ad-bf72-4e4315e8acb5")
 	)
 	(wire
 		(pts
@@ -530,7 +766,27 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 30.48) (xy 100.33 54.61)
+			(xy 90.17 30.48) (xy 102.87 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c24964b-482a-465a-a76e-9ec6cac06201")
+	)
+	(wire
+		(pts
+			(xy 125.73 80.01) (xy 139.7 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28573e0f-24f5-44c5-8dc5-8d3c85b67af6")
+	)
+	(wire
+		(pts
+			(xy 102.87 30.48) (xy 102.87 54.61)
 		)
 		(stroke
 			(width 0)
@@ -540,13 +796,33 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 30.48) (xy 100.33 30.48)
+			(xy 87.63 30.48) (xy 90.17 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "526a6743-3093-42b2-a226-ae9f5e48a388")
+	)
+	(wire
+		(pts
+			(xy 90.17 62.23) (xy 90.17 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6061a29c-9648-4f2c-b91e-6caadb10784b")
+	)
+	(wire
+		(pts
+			(xy 90.17 30.48) (xy 90.17 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62bf15cc-c1c3-46cd-a9ca-dbde07b189fe")
 	)
 	(wire
 		(pts
@@ -560,7 +836,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 30.48) (xy 100.33 30.48)
+			(xy 114.3 30.48) (xy 102.87 30.48)
 		)
 		(stroke
 			(width 0)
@@ -570,7 +846,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 62.23) (xy 125.73 83.82)
+			(xy 125.73 62.23) (xy 125.73 80.01)
 		)
 		(stroke
 			(width 0)
@@ -600,6 +876,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 30.48) (xy 139.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3bfafdb-d01f-48ad-b098-a56af06f72db")
+	)
+	(wire
+		(pts
+			(xy 125.73 80.01) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7d6a33a-ac4a-4087-ae84-1a36054dd736")
+	)
+	(wire
+		(pts
 			(xy 39.37 55.88) (xy 39.37 67.31)
 		)
 		(stroke
@@ -610,7 +906,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 62.23) (xy 100.33 83.82)
+			(xy 102.87 62.23) (xy 102.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -664,6 +960,16 @@
 		)
 		(uuid bb8bf397-fe9e-4f27-83cf-da3cfbf8f5c0)
 	)
+	(text "zamneljivi i zapaljiv otpornik\n"
+		(exclude_from_sim no)
+		(at 156.21 54.864 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "040f15a7-7951-4e32-bb54-2aea3ef70837")
+	)
 	(text "Rupe za montiranje\n"
 		(exclude_from_sim no)
 		(at 17.78 109.22 0)
@@ -674,6 +980,16 @@
 			(justify left bottom)
 		)
 		(uuid "2a4bf67d-83bf-4c30-a6e3-5f60222c600a")
+	)
+	(text "otpornik okružen bakrom\n"
+		(exclude_from_sim no)
+		(at 77.216 61.468 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "32650bd4-8c7e-4d1e-913c-aae32b3ac648")
 	)
 	(text "Konektor za napajanje"
 		(exclude_from_sim no)
@@ -721,7 +1037,7 @@
 	)
 	(global_label "Input voltage"
 		(shape input)
-		(at 91.44 30.48 180)
+		(at 87.63 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -731,7 +1047,7 @@
 		)
 		(uuid "9a3dfbfb-dcbe-4d8a-8f8d-5a138cb5d5c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 75.8156 30.48 0)
+			(at 72.0056 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -810,7 +1126,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-		(at 100.33 83.82 0)
+		(at 102.87 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -819,7 +1135,7 @@
 		(fields_autoplaced yes)
 		(uuid "03b383fb-1789-4758-8608-445f34f3a8f7")
 		(property "Reference" "#GND07"
-			(at 100.33 86.36 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -828,7 +1144,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 100.33 81.28 0)
+			(at 102.87 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -837,7 +1153,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 83.82 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -846,7 +1162,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 83.82 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -855,7 +1171,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 83.82 0)
+			(at 102.87 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,6 +1323,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 90.17 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d384ea6-0965-47ea-a440-52c52464b5f3")
+		(property "Reference" "R2"
+			(at 84.328 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 84.328 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 88.392 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6648e822-0dda-416b-84b2-1f4ba15fe861")
+		)
+		(pin "2"
+			(uuid "d94bbe64-09d9-455f-accb-e5c3161357af")
+		)
+		(instances
+			(project "004_dzulov_zakon"
+				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 48.26 53.34 0)
 		(unit 1)
@@ -1137,6 +1520,73 @@
 			(project "004_dzulov_zakon"
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 90.17 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "668c9c52-7a8a-4002-8e82-01854299e005")
+		(property "Reference" "#GND03"
+			(at 90.17 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "0"
+			(at 90.17 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 90.17 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bc0216c-3f7d-42e5-b90b-0b056bbbeb6c")
+		)
+		(instances
+			(project "004_dzulov_zakon"
+				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
+					(reference "#GND03")
 					(unit 1)
 				)
 			)
@@ -1338,6 +1788,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:Heatsink")
+		(at 86.36 67.31 90)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95e2b933-1e29-48c8-a2d5-32b98b56eaa9")
+		(property "Reference" "HS1"
+			(at 87.63 66.0526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Value" "Heatsink"
+			(at 87.63 68.5926 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 86.36 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 67.0052 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Heatsink"
+			(at 86.36 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
+					(reference "HS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 49.53 127 0)
 		(unit 1)
@@ -1402,32 +1918,36 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 100.33 58.42 0)
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 144.78 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e7990203-c47d-4fab-b95b-a3c615be11d6")
-		(property "Reference" "R1"
-			(at 94.488 56.388 0)
+		(fields_autoplaced yes)
+		(uuid "d44d662c-9dbf-4043-9d17-8b984698f9fc")
+		(property "Reference" "J1"
+			(at 146.05 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "100k"
-			(at 94.488 58.928 0)
+		(property "Value" "Conn_01x01_Socket"
+			(at 146.05 31.7499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 98.552 58.42 90)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 144.78 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1436,7 +1956,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 58.42 0)
+			(at 144.78 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 144.78 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f00d0fcc-88f2-4fda-81fd-5cb83c56faee")
+		)
+		(instances
+			(project ""
+				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 102.87 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7990203-c47d-4fab-b95b-a3c615be11d6")
+		(property "Reference" "R1"
+			(at 97.028 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 97.028 58.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 101.092 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1445,7 +2029,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 58.42 0)
+			(at 102.87 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1530,6 +2114,74 @@
 			(project "004_dzulov_zakon"
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "#GND01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 144.78 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd34bfdf-de28-4759-ba0d-2ea19c7fad5a")
+		(property "Reference" "J3"
+			(at 146.05 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 146.05 81.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 144.78 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b39f781-d8e9-4f83-ab22-84719ff7cd3a")
+		)
+		(instances
+			(project "004_dzulov_zakon"
+				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
+					(reference "J3")
 					(unit 1)
 				)
 			)
