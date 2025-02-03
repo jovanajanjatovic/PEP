@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "PEP")(type "KiCad")(uri "${KIPRJMOD}/PEP.pretty")(options "")(descr ""))
+  (lib (name "PEP_library")(type "KiCad")(uri "${KIPRJMOD}/PEP_library.pretty")(options "")(descr ""))
 )
