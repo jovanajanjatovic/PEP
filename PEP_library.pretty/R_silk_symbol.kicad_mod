@@ -1,12 +1,13 @@
-(footprint "otpornik"
+(footprint "R_silk_symbol"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0.5 -0.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "fa6c600e-f671-4934-9ed8-61f1ea1991bc")
 		(effects
 			(font
@@ -15,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "otpornik"
+	(property "Value" "R_silk_symbol"
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -138,7 +139,7 @@
 		(uuid "13563d7a-8185-44da-aced-2266ffba9bdf")
 	)
 	(fp_line
-		(start 0 12.025)
+		(start 0 9.6)
 		(end 0 6.75)
 		(stroke
 			(width 0.15)
