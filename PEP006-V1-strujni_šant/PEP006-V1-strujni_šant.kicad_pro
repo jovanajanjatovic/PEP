@@ -447,7 +447,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "002_strujni_razdelnik.kicad_pro",
+    "filename": "PEP006-V1-strujni_šant.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -549,7 +549,7 @@
       "group_symbols": true,
       "name": "Grouped By Value",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Референца"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -585,7 +585,7 @@
         "version": 0
       },
       "model_mode": 0,
-      "workbook_filename": "002_strujni_razdelnik.wbk"
+      "workbook_filename": "PEP006-V1-strujni_šant.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",

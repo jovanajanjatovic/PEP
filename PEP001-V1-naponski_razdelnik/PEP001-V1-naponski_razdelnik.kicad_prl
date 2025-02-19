@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 38,
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -74,7 +74,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "PEP007-V1-Sant_ploca.kicad_prl",
+    "filename": "PEP001-V1-naponski_razdelnik.kicad_prl",
     "version": 3
   },
   "project": {

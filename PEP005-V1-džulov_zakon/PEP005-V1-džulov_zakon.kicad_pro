@@ -181,6 +181,7 @@
       ],
       "track_widths": [
         0.0,
+        0.5,
         1.0
       ],
       "tuning_pattern_settings": {
@@ -447,7 +448,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PEP006-V1-RC_vremenska_konstanta.kicad_pro",
+    "filename": "PEP005-V1-džulov_zakon.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -585,7 +586,7 @@
         "version": 0
       },
       "model_mode": 0,
-      "workbook_filename": "PEP006-V1-RC_vremenska_konstanta.wbk"
+      "workbook_filename": "PEP005-V1-džulov_zakon.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
