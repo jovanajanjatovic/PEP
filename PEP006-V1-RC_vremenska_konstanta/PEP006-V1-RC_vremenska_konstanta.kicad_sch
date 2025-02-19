@@ -1097,6 +1097,16 @@
 		)
 		(uuid "a0f6d9b0-5a3e-47ab-948b-323d2eea09f2")
 	)
+	(text "klizni\ndodatni otpornici\ntest pointi\nlogo ele\ntjt."
+		(exclude_from_sim no)
+		(at 131.318 45.72 0)
+		(effects
+			(font
+				(size 6.35 6.35)
+			)
+		)
+		(uuid "dfeb831c-0a60-4311-a4f0-cc58f281b40f")
+	)
 	(global_label "Output voltage"
 		(shape input)
 		(at 176.53 73.66 0)
