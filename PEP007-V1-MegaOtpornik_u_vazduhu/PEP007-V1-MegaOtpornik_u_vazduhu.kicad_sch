@@ -331,7 +331,7 @@
 					)
 				)
 			)
-			(property "Footprint" "PEP_library:JP_Connector_PinHeader_2.54mmPinHeader_1x02_P2.54mm_Vertical"
+			(property "Footprint" "PEP_library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1042,6 +1042,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PEP_library:Screw_Terminal_01x02")
+		(at 48.26 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "462a7e21-f406-407e-a141-b10fdb17a80c")
+		(property "Reference" "J1"
+			(at 50.8 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 50.8 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "PEP_library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "223e9904-9f5e-4616-a6d2-c5790df1524f")
+		)
+		(pin "1"
+			(uuid "e36b6ab9-b2c2-403f-9b8a-a93e247ebe37")
+		)
+		(instances
+			(project ""
+				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 49.53 119.38 0)
 		(unit 1)
@@ -1167,76 +1237,6 @@
 			(project "PEP007-V1-MegaOtpornik_u_vazduhu"
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "#GND01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PEP_library:Screw_Terminal_01x02")
-		(at 48.26 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "87aab5ac-33dc-4aa2-9838-2fbaec6ad07e")
-		(property "Reference" "J1"
-			(at 50.8 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 50.8 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "PEP_library:JP_Connector_PinHeader_2.54mmPinHeader_1x02_P2.54mm_Vertical"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 48.26 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0532f0be-9fc3-4b2a-b93e-a63afe5150ca")
-		)
-		(pin "2"
-			(uuid "856b8a10-596a-486c-bce8-59154ad9e724")
-		)
-		(instances
-			(project ""
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "J1")
 					(unit 1)
 				)
 			)

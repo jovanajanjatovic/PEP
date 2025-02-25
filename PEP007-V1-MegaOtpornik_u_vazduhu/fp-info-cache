@@ -1,4 +1,4 @@
-24664459626966824
+24664460130197430
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -69860,13 +69860,6 @@ CP_silk_symbol
 0
 0
 PEP_library
-JP_Connector_PinHeader_2.54mmPinHeader_1x02_P2.54mm_Vertical
-
-
-0
-2
-2
-PEP_library
 JP_silk_symbol
 
 
@@ -69901,6 +69894,13 @@ SW_push_silk screen
 0
 0
 0
+PEP_library
+TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal
+Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm^2, drill diamater 1.3mm, pad diameter 2.6mm, see http://www.farnell.com/datasheets/100425.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_Phoenix
+THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm^2 drill 1.3mm pad 2.6mm
+0
+2
+2
 PEP_library
 ele_petnica_logo
 

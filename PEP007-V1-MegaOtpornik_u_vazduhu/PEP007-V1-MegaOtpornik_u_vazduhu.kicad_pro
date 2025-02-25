@@ -444,7 +444,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "PEP_library"
+    ]
   },
   "meta": {
     "filename": "PEP007-V1-MegaOtpornik_u_vazduhu.kicad_pro",
