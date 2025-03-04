@@ -1,4 +1,7 @@
 (fp_lib_table
   (version 7)
-  (lib (name "isp")(type "KiCad")(uri "${KIPRJMOD}/isp.pretty")(options "")(descr ""))
+  (lib (name "isp")(type "KiCad")(uri "${KIPRJMOD}/isp.pretty")(options "")(descr "")(disabled))
+  (lib (name "PEP_library")(type "KiCad")(uri "C:/Users/HP/Desktop/PEP-master/PEP_library.pretty")(options "")(descr ""))
+  (lib (name "WSK12161L000FEA (1)")(type "KiCad")(uri "${KIPRJMOD}/WSK12161L000FEA (1)")(options "")(descr ""))
+  (lib (name "sema")(type "KiCad")(uri "${KIPRJMOD}/sema.pretty")(options "")(descr ""))
 )

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "WSK12161L000FEA")(type "KiCad")(uri "${KIPRJMOD}/WSK12161L000FEA (1)/WSK12161L000FEA.kicad_sym")(options "")(descr ""))
+  (lib (name "PEP_library")(type "KiCad")(uri "C:/Users/HP/Desktop/PEP-master/PEP_library.kicad_sym")(options "")(descr ""))
+)
