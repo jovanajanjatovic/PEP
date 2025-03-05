@@ -9004,6 +9004,7 @@
 	(gr_line
 		(start 121.675 72.719848)
 		(end 121.675 107.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9016,6 +9017,7 @@
 		(start 121.675 72.719848)
 		(mid 122.905154 69.750002)
 		(end 125.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9028,6 +9030,7 @@
 		(start 125.875 111.919848)
 		(mid 122.905159 110.689689)
 		(end 121.675 107.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9039,6 +9042,7 @@
 	(gr_line
 		(start 125.875 111.919848)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9050,6 +9054,7 @@
 	(gr_line
 		(start 165.075 107.719848)
 		(end 165.075 72.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9062,6 +9067,7 @@
 		(start 165.075 107.719848)
 		(mid 163.844851 110.689699)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9074,6 +9080,7 @@
 		(start 160.875 68.519848)
 		(mid 163.844856 69.749992)
 		(end 165.075 72.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9085,6 +9092,7 @@
 	(gr_line
 		(start 125.875 68.519848)
 		(end 160.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9096,6 +9104,7 @@
 	(gr_line
 		(start 125.875 68.519848)
 		(end 160.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9107,6 +9116,7 @@
 	(gr_line
 		(start 125.875 111.919848)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9119,6 +9129,7 @@
 		(start 160.875 68.519848)
 		(mid 163.844856 69.749992)
 		(end 165.075 72.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9131,6 +9142,7 @@
 		(start 165.075 107.719848)
 		(mid 163.844851 110.689699)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9143,6 +9155,7 @@
 		(start 125.875 111.919848)
 		(mid 122.905159 110.689689)
 		(end 121.675 107.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9154,6 +9167,7 @@
 	(gr_line
 		(start 165.075 107.719848)
 		(end 165.075 72.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9166,6 +9180,7 @@
 		(start 121.675 72.719848)
 		(mid 122.905154 69.750002)
 		(end 125.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9177,6 +9192,7 @@
 	(gr_line
 		(start 121.675 72.719848)
 		(end 121.675 107.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9738,6 +9754,7 @@
 	(gr_line
 		(start 125.875 68.519848)
 		(end 160.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9749,6 +9766,7 @@
 		(start 121.510172 72.512438)
 		(mid 122.764469 69.484316)
 		(end 125.792592 68.230019)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9760,6 +9778,7 @@
 		(start 121.570296 72.697563)
 		(mid 122.824586 69.669433)
 		(end 125.852716 68.415144)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9771,6 +9790,7 @@
 		(start 165.18893 107.719847)
 		(mid 163.925412 110.770259)
 		(end 160.875 112.033778)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9782,6 +9802,7 @@
 		(start 165.075 107.833779)
 		(mid 163.805247 110.73021)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9793,6 +9814,7 @@
 		(start 121.675 72.833778)
 		(mid 122.864602 69.790458)
 		(end 125.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9803,6 +9825,7 @@
 	(gr_line
 		(start 125.875 111.919848)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9813,6 +9836,7 @@
 	(gr_line
 		(start 125.875 112.019848)
 		(end 160.875 112.019848)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9823,6 +9847,7 @@
 	(gr_line
 		(start 125.875 111.919848)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9834,6 +9859,7 @@
 		(start 160.875 68.519848)
 		(mid 163.844856 69.749992)
 		(end 165.075 72.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9844,6 +9870,7 @@
 	(gr_line
 		(start 160.592594 68.242734)
 		(end 125.592592 68.242734)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9855,6 +9882,7 @@
 		(start 160.825922 68.228723)
 		(mid 163.870725 69.48992)
 		(end 165.131922 72.534722)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9866,6 +9894,7 @@
 		(start 125.814876 111.848653)
 		(mid 122.76449 110.585108)
 		(end 121.500946 107.534722)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9876,6 +9905,7 @@
 	(gr_line
 		(start 165.075 72.833779)
 		(end 165.075 107.833779)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9887,6 +9917,7 @@
 		(start 121.675 72.719848)
 		(mid 122.905154 69.750002)
 		(end 125.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9897,6 +9928,7 @@
 	(gr_line
 		(start 121.575 72.719848)
 		(end 121.575 107.719848)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9907,6 +9939,7 @@
 	(gr_line
 		(start 121.514876 72.534723)
 		(end 121.514876 107.534723)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9918,6 +9951,7 @@
 		(start 125.875 112.033778)
 		(mid 122.824597 110.77025)
 		(end 121.56107 107.719847)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9929,6 +9963,7 @@
 		(start 165.128806 107.534722)
 		(mid 163.865295 110.585142)
 		(end 160.814876 111.848653)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9940,6 +9975,7 @@
 		(start 165.075 107.719848)
 		(mid 163.844851 110.689699)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9951,6 +9987,7 @@
 		(start 160.886046 68.413848)
 		(mid 163.930852 69.675041)
 		(end 165.192046 72.719847)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9962,6 +9999,7 @@
 		(start 160.875 68.519848)
 		(mid 163.851594 69.823371)
 		(end 165.075 72.833779)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -9972,6 +10010,7 @@
 	(gr_line
 		(start 165.114878 107.534723)
 		(end 165.114876 72.534723)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9982,6 +10021,7 @@
 	(gr_line
 		(start 125.814876 111.834723)
 		(end 160.814876 111.834723)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -9992,6 +10032,7 @@
 	(gr_line
 		(start 160.652718 68.427859)
 		(end 125.652716 68.427859)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10002,6 +10043,7 @@
 	(gr_line
 		(start 121.675 107.719848)
 		(end 121.675 72.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10012,6 +10054,7 @@
 	(gr_line
 		(start 121.675 72.719848)
 		(end 121.675 107.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10023,6 +10066,7 @@
 		(start 125.875 111.919848)
 		(mid 122.86461 110.64923)
 		(end 121.675 107.605918)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10034,6 +10078,7 @@
 		(start 125.875 111.919848)
 		(mid 122.905159 110.689689)
 		(end 121.675 107.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10044,6 +10089,7 @@
 	(gr_line
 		(start 165.075 107.719848)
 		(end 165.075 72.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10054,6 +10100,7 @@
 	(gr_line
 		(start 125.875 68.519848)
 		(end 160.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10064,6 +10111,7 @@
 	(gr_line
 		(start 165.175002 107.719848)
 		(end 165.175 72.719848)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10075,6 +10123,7 @@
 		(start 165.075 107.719848)
 		(mid 163.844851 110.689699)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10085,6 +10134,7 @@
 	(gr_line
 		(start 125.875 111.919848)
 		(end 160.875 111.919848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10096,6 +10146,7 @@
 		(start 121.675 72.719848)
 		(mid 122.905154 69.750002)
 		(end 125.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10106,6 +10157,7 @@
 	(gr_line
 		(start 125.875 68.519848)
 		(end 160.875 68.519848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10117,6 +10169,7 @@
 		(start 125.875 111.919848)
 		(mid 122.905159 110.689689)
 		(end 121.675 107.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10128,6 +10181,7 @@
 		(start 160.825922 68.228723)
 		(mid 163.870675 69.48997)
 		(end 165.131922 72.534722)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10138,6 +10192,7 @@
 	(gr_line
 		(start 160.592594 68.242734)
 		(end 125.592592 68.242734)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10149,6 +10204,7 @@
 		(start 160.875 68.519848)
 		(mid 163.844856 69.749992)
 		(end 165.075 72.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10160,6 +10216,7 @@
 		(start 121.510172 72.512438)
 		(mid 122.764469 69.484316)
 		(end 125.792592 68.230019)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10170,6 +10227,7 @@
 	(gr_line
 		(start 125.814876 111.834723)
 		(end 160.814876 111.834723)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10180,6 +10238,7 @@
 	(gr_line
 		(start 121.675 72.719848)
 		(end 121.675 107.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10190,6 +10249,7 @@
 	(gr_line
 		(start 165.075 107.719848)
 		(end 165.075 72.719848)
+		(locked yes)
 		(stroke
 			(width 1.6)
 			(type default)
@@ -10200,6 +10260,7 @@
 	(gr_line
 		(start 121.514876 72.534723)
 		(end 121.514876 107.534723)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10211,6 +10272,7 @@
 		(start 125.814876 111.848653)
 		(mid 122.76449 110.585108)
 		(end 121.500946 107.534722)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10222,6 +10284,7 @@
 		(start 165.128806 107.534722)
 		(mid 163.865295 110.585142)
 		(end 160.814876 111.848653)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10232,6 +10295,7 @@
 	(gr_line
 		(start 165.114878 107.534723)
 		(end 165.114876 72.534723)
+		(locked yes)
 		(stroke
 			(width 1.4)
 			(type default)
@@ -10242,6 +10306,7 @@
 	(gr_line
 		(start 160.814876 112.534723)
 		(end 125.814876 112.534723)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -10252,6 +10317,7 @@
 	(gr_line
 		(start 165.814876 107.534723)
 		(end 165.814876 72.534723)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -10263,6 +10329,7 @@
 		(start 120.814876 72.534723)
 		(mid 122.279343 68.99919)
 		(end 125.814876 67.534723)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -10274,6 +10341,7 @@
 		(start 125.814876 112.534723)
 		(mid 122.279366 111.070233)
 		(end 120.814876 107.534723)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -10285,6 +10353,7 @@
 		(start 160.814876 67.534723)
 		(mid 164.350434 68.999165)
 		(end 165.814876 72.534723)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -10295,6 +10364,7 @@
 	(gr_line
 		(start 125.814876 67.534723)
 		(end 160.814876 67.534723)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -10306,6 +10376,7 @@
 		(start 165.814876 107.534723)
 		(mid 164.35042 111.070267)
 		(end 160.814876 112.534723)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -10316,6 +10387,7 @@
 	(gr_line
 		(start 120.814876 72.534723)
 		(end 120.814876 107.534723)
+		(locked yes)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -11331,6 +11403,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "01fc5840-ac4c-4c75-9445-739e3ca2a5be")
@@ -11340,6 +11413,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "0210b179-21e5-4d04-bdaf-e1afa42f94cf")
@@ -11349,6 +11423,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "041a6fe6-94b4-4228-b545-0d62f2b40a75")
@@ -11358,6 +11433,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "045a48b0-0376-41c9-8587-dd4022dfe259")
@@ -11367,6 +11443,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "070cf6ac-9687-42d3-9762-d899c9aebe63")
@@ -11376,6 +11453,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "07bf801a-5e5e-484e-bd32-23d2c94d1300")
@@ -11385,6 +11463,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "0c7030fa-7272-48d3-be9b-30350a26ca0e")
@@ -11394,6 +11473,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "127deb01-d9d3-476d-9dea-61387d08e2f5")
@@ -11403,6 +11483,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "15f4d12e-d4b0-4b14-a64c-8478f16991d5")
@@ -11412,6 +11493,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "17116c26-e325-47fa-99b4-5c717ffc4d48")
@@ -11421,6 +11503,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "190f5f8d-4b59-493a-b611-21fcec48816f")
@@ -11430,6 +11513,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "1bffffe6-a105-4373-81a4-629b3823c016")
@@ -11439,6 +11523,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "1ce6d4cd-0f4a-4e66-bda0-fc9d7785eb90")
@@ -11448,6 +11533,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "226eb5fa-ba4b-4fbc-952e-75c9a0185302")
@@ -11457,6 +11543,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "22857b5e-2adc-41a7-8373-e465ac0f5499")
@@ -11466,6 +11553,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "284f8371-fc5e-407d-a346-16251d666a02")
@@ -11475,6 +11563,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "28b695ca-11a1-4d5a-a6a5-67cd9477750b")
@@ -11484,6 +11573,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "29fd61b9-4e3c-4792-95c6-c14370819958")
@@ -11493,6 +11583,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "2eb3b14a-d01e-46cd-b569-0b75eb68dddb")
@@ -11502,6 +11593,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "2f58d9eb-7625-4aae-be54-7c07bcd514ee")
@@ -11511,6 +11603,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "2f5ca695-f62e-4a11-a8de-6e7f563930a5")
@@ -11520,6 +11613,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "32acf3e6-4bca-46ef-88ea-639246ecfa60")
@@ -11529,6 +11623,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "32b2ceff-2c3f-44b2-b084-5a0f32646047")
@@ -11538,6 +11633,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "332e6941-97b9-4c2a-a080-c559e2ef870e")
@@ -11547,6 +11643,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "33e8a89a-a6bf-4dbd-b350-4ee319a53793")
@@ -11556,6 +11653,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "361ad5a8-5b00-416d-adab-1abc205649ae")
@@ -11565,6 +11663,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "395ff240-b471-4b47-aa1e-7869fb1408e8")
@@ -11574,6 +11673,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "39652e0b-c1b9-4a3c-93ad-d0b4bfcc8fe7")
@@ -11583,6 +11683,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "3b9c0a88-1ebb-4805-8ddf-857950d500b7")
@@ -11592,6 +11693,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "3e84c36c-a4d1-48da-b6a8-ad086834321e")
@@ -11601,6 +11703,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "425e92ac-0acc-460b-95f2-b7cfcec4cb62")
@@ -11610,6 +11713,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "43497e2b-9056-4370-a80b-b2cdbce57201")
@@ -11619,6 +11723,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "45c35b16-a682-49e1-a439-76a16ef10c98")
@@ -11628,6 +11733,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "490e3d6a-9be5-4810-8a1b-696a9d4fcb8f")
@@ -11637,6 +11743,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "4dcf5202-d250-4825-8feb-920e75fdcad5")
@@ -11646,6 +11753,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "52bcb5d0-e992-4c1b-95c2-60c7e43f2052")
@@ -11655,6 +11763,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "551a3563-5551-4b87-9c63-b772e7e13fb0")
@@ -11664,6 +11773,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "556c7320-f89e-4434-9309-6d2d8021fca0")
@@ -11673,6 +11783,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "563aadfd-1f44-497a-a653-9cd3c5db1ef2")
@@ -11682,6 +11793,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "5655fd2d-51b3-4611-9d4b-d9eacb3b2839")
@@ -11691,6 +11803,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "587f2a13-dc34-4f4d-9ed8-12575df57c4a")
@@ -11700,6 +11813,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "5decf4ac-b98c-4519-96b9-b10d1f04c93d")
@@ -11709,6 +11823,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "5fd50b1a-b0e8-4e65-907b-6113bd5c87f6")
@@ -11718,6 +11833,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "6301963a-063a-4b0d-9858-3369aa7011f0")
@@ -11727,6 +11843,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "67503507-953f-4bc7-8303-a55b0bca5b06")
@@ -11736,6 +11853,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "68e18937-cae5-4bf9-8251-627a53376df6")
@@ -11745,6 +11863,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "6dd10320-5894-4f55-a222-e37b1819b761")
@@ -11754,6 +11873,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "747e816e-7c6c-46f5-8da1-9ef47c90fbf2")
@@ -11763,6 +11883,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "7500a9a3-3788-413c-b48c-c96ebb2e6d0f")
@@ -11772,6 +11893,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "767d6f2d-a1dd-43cf-9ad3-bf224dd784db")
@@ -11781,6 +11903,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "78b69f1e-cf87-4c36-9d71-575e0bb4861d")
@@ -11790,6 +11913,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "7cf0d53e-ffdf-4062-94fd-8371c19d16ee")
@@ -11799,6 +11923,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "85c3d842-8dac-4657-962c-a2e959f05254")
@@ -11808,6 +11933,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "866122db-18f3-4c0f-bf72-0dbdb92a8937")
@@ -11817,6 +11943,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "88104624-d7b8-4e76-aff7-cddbcb9a351b")
@@ -11826,6 +11953,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "8a0bbfa1-0e6c-42af-9856-3f15ea03948e")
@@ -11835,6 +11963,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "8cb0f4ef-ed07-446d-b9b3-b9d6495fe0a5")
@@ -11844,6 +11973,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "90bb4433-5824-447e-93bc-c497a4bb4267")
@@ -11853,6 +11983,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "948efedc-beb0-442b-954a-f6985838b6cb")
@@ -11862,6 +11993,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "974ba4cb-147c-4753-bf07-7007714064ce")
@@ -11871,6 +12003,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "9a5533ec-8725-4343-8112-1f9a81b4828a")
@@ -11880,6 +12013,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "9bbef429-8323-451e-a34b-471c3619fe11")
@@ -11889,6 +12023,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "9e7a8915-4a3d-4a4d-896d-8ce7cfd83fc9")
@@ -11898,6 +12033,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "a1228072-107d-46b7-ad5f-761a3f43a3d1")
@@ -11907,6 +12043,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "a2e26e94-c4ef-405a-82c4-64b841087370")
@@ -11916,6 +12053,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "a7c6d0eb-0cea-4458-bdd8-5361d94eb072")
@@ -11925,6 +12063,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "aa082a57-7903-4f74-a833-386b8d600c10")
@@ -11934,6 +12073,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "aa6ab305-9a19-4454-80b6-8bdb34520560")
@@ -11943,6 +12083,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "aafa6a4c-7007-4d35-bb51-b73130dece06")
@@ -11952,6 +12093,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "ad103a51-0a52-4ae1-b56a-a0e170fac46c")
@@ -11961,6 +12103,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "b01c2e5f-c676-468b-9b16-d4bd22f274b6")
@@ -11970,6 +12113,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "b17fe734-d6fa-4727-9cca-8b3da0f0fa87")
@@ -11979,6 +12123,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "bbe243dc-2351-4121-8b5d-0606df4a6bc0")
@@ -11988,6 +12133,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "bc3733db-f808-4d23-873d-639bccf5c709")
@@ -11997,6 +12143,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "bccc2c3f-889f-4f69-8e0c-f1c1fc201c90")
@@ -12006,6 +12153,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c2eda4d7-c2a0-4e01-8e1f-f09926ac0b7d")
@@ -12015,6 +12163,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c3cb66c5-c283-4285-bd9f-a4f79ffddd39")
@@ -12024,6 +12173,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c3ffae34-ffc2-42fb-96f3-4101e47751ab")
@@ -12033,6 +12183,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c474586d-8c27-4a55-aa11-a29bb46b45eb")
@@ -12042,6 +12193,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c66f7482-de55-4b4e-8c5b-4d2da4eee2a4")
@@ -12051,6 +12203,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c6bfb93d-49e7-4f53-8cbb-a9951a80ff43")
@@ -12060,6 +12213,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c72c3a08-5993-4bb1-8865-29065487c103")
@@ -12069,6 +12223,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c733522b-bcd1-4640-8936-edef839fc4c9")
@@ -12078,6 +12233,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c8353724-0706-4f7a-9c3d-85a1abe252db")
@@ -12087,6 +12243,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "c8377f28-5029-49bb-9885-faee78486ed8")
@@ -12096,6 +12253,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "ca573b83-0b23-4b62-9494-3ee578b8ea8b")
@@ -12105,6 +12263,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "cae8d8c6-65dc-4ab7-b548-8c4d6bc5d02c")
@@ -12114,6 +12273,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "ccf30693-f699-44ce-8a5d-7b871b076c21")
@@ -12123,6 +12283,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "ce1624b2-d433-44f1-acb0-eaf846238b14")
@@ -12132,6 +12293,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "ce99c35f-e9bf-4a24-a13f-94ea3afb4249")
@@ -12141,6 +12303,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "cf2c9215-fda0-429c-9b9a-4ce518ebb98b")
@@ -12150,6 +12313,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "cfa445b5-d3e8-4657-b190-a0f8e9ec7d24")
@@ -12159,6 +12323,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "d29b9117-0699-4fc2-a749-d31e90965f09")
@@ -12168,6 +12333,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "d5d74210-28e5-4fe9-bc42-001d32069738")
@@ -12177,6 +12343,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "d74d7653-c3ae-4d22-be35-20fe3e097c74")
@@ -12186,6 +12353,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "d82696ab-ec30-4687-9260-55a65756d011")
@@ -12195,6 +12363,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "d8794a30-e8d2-4356-ba58-9c234cb2360a")
@@ -12204,6 +12373,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "ddeafaa4-a240-4669-967a-7659dd2f65c9")
@@ -12213,6 +12383,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "dff1d5aa-fa2b-4a66-b2cd-a3aa38b02f12")
@@ -12222,6 +12393,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "e1bb5518-85aa-4fc5-8ae8-3924feedad38")
@@ -12231,6 +12403,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "e2531950-3d20-4a93-b114-fe9fba9c7467")
@@ -12240,6 +12413,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "eade078f-1467-4644-a9a6-526fb192289f")
@@ -12249,6 +12423,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "ebac5a82-586a-4f4c-bfd4-41a1f5a2db7d")
@@ -12258,6 +12433,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "f025dbc6-f919-4206-987f-a2594a81292d")
@@ -12267,6 +12443,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "f1a37a54-50ba-42d5-ba05-f741361c7434")
@@ -12276,6 +12453,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "f6f7427c-e0de-4889-a255-6220dcbd089e")
@@ -12285,6 +12463,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "f889b95f-0459-4495-bced-7908a916b4c1")
@@ -12294,6 +12473,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "fb6cea0d-fa68-4171-aee1-e6a765ffebf3")
@@ -12303,6 +12483,7 @@
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
+		(locked yes)
 		(free yes)
 		(net 0)
 		(uuid "ff181bee-3602-4b23-a18b-b5c49b386ea8")

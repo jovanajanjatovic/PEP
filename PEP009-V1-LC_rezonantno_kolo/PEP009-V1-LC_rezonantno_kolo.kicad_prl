@@ -17,14 +17,14 @@
     "selection_filter": {
       "dimensions": false,
       "footprints": false,
-      "graphics": false,
+      "graphics": true,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": true,
+      "text": false,
       "tracks": false,
-      "vias": false,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffe0_fffffffe",
+    "visible_layers": "ffd10c0_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
