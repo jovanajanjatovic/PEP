@@ -1048,12 +1048,6 @@
 		(uuid "0473e82a-aafc-436b-9c86-a6a419dbf20b")
 	)
 	(junction
-		(at 128.27 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "231f37b3-3fd8-4312-903a-fc11a16b0024")
-	)
-	(junction
 		(at 105.41 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1064,12 +1058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64b5964a-0fba-4626-934d-59794623bc61")
-	)
-	(junction
-		(at 125.73 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7381bb74-1f80-43f7-8297-add50237e07d")
 	)
 	(junction
 		(at 140.97 53.34)
@@ -1169,16 +1157,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 58.42) (xy 125.73 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c24470-d5df-40ef-9556-209d3d736736")
-	)
-	(wire
-		(pts
 			(xy 138.43 53.34) (xy 140.97 53.34)
 		)
 		(stroke
@@ -1196,16 +1174,6 @@
 			(type default)
 		)
 		(uuid "5db56cc0-6c93-424c-9b2b-eeefa179bb54")
-	)
-	(wire
-		(pts
-			(xy 132.08 53.34) (xy 128.27 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66bc1a89-4d0d-4c3b-b1bf-7074358c134b")
 	)
 	(wire
 		(pts
@@ -1314,7 +1282,7 @@
 		)
 		(uuid "5896fae3-9291-4e08-bc44-33532dbd04b5")
 	)
-	(text "Sant otpornik paralelan"
+	(text "Shunt otpornici"
 		(exclude_from_sim no)
 		(at 71.12 17.78 0)
 		(effects
@@ -1398,7 +1366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "Shunt"
+		(property "Value" "2m"
 			(at 115.57 53.086 0)
 			(effects
 				(font
@@ -1665,7 +1633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 120.65 58.42 0)
 			(effects
 				(font
@@ -1723,7 +1691,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100"
 			(at 115.57 33.02 90)
 			(effects
 				(font
@@ -1881,7 +1849,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1"
 			(at 115.57 40.64 90)
 			(effects
 				(font
@@ -2173,7 +2141,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 100.33 58.42 0)
 			(effects
 				(font
@@ -2427,7 +2395,7 @@
 			)
 		)
 		(property "Value" "TestPoint-"
-			(at 146.05 44.45 90)
+			(at 141.986 41.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 140.97 49.53 0)
 			(effects
 				(font
@@ -2565,7 +2533,7 @@
 			)
 		)
 		(property "Value" "TestPoint+"
-			(at 88.138 44.196 90)
+			(at 90.17 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2573,7 +2541,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
 			(at 105.41 39.37 0)
 			(effects
 				(font
