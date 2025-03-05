@@ -1422,7 +1422,7 @@
 		(fields_autoplaced yes)
 		(uuid "1953542e-212a-4831-a35c-6aa8dca24f58")
 		(property "Reference" "R2"
-			(at 154.94 52.07 0)
+			(at 154.94 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1430,8 +1430,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "90k"
-			(at 154.94 54.61 0)
+		(property "Value" "81k"
+			(at 154.94 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,6 +1708,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
@@ -2897,7 +2898,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa8476f3-e2d6-4341-a6a5-9707c854dbee")
 		(property "Reference" "R4"
-			(at 91.44 49.53 0)
+			(at 91.44 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,8 +2906,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "90k"
-			(at 91.44 52.07 0)
+		(property "Value" "81k"
+			(at 91.44 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
