@@ -1122,23 +1122,13 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 35.56) (xy 154.94 43.18)
+			(xy 154.94 36.83) (xy 154.94 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "164357ab-3d1f-4b5b-b3d3-339b26311c18")
-	)
-	(wire
-		(pts
-			(xy 187.96 39.37) (xy 191.77 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f49003-2cdb-44a5-85e7-ae5cecfa5ef4")
 	)
 	(wire
 		(pts
@@ -1192,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 43.18) (xy 242.57 31.75)
+			(xy 242.57 43.18) (xy 242.57 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1292,7 +1282,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 43.18) (xy 218.44 35.56)
+			(xy 218.44 43.18) (xy 218.44 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1322,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 31.75) (xy 149.86 31.75)
+			(xy 242.57 33.02) (xy 149.86 33.02)
 		)
 		(stroke
 			(width 0)
@@ -1422,7 +1412,7 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 35.56) (xy 154.94 35.56)
+			(xy 218.44 36.83) (xy 154.94 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1482,7 +1472,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 38.1) (xy 187.96 38.1)
+			(xy 158.75 39.37) (xy 191.77 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1512,7 +1502,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 31.75) (xy 149.86 43.18)
+			(xy 149.86 33.02) (xy 149.86 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +1642,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 43.18) (xy 158.75 38.1)
+			(xy 158.75 43.18) (xy 158.75 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1699,16 +1689,6 @@
 			(type default)
 		)
 		(uuid "bcc0e57f-bc5b-40fc-b55b-54453634d7f5")
-	)
-	(wire
-		(pts
-			(xy 187.96 38.1) (xy 187.96 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c2395c1b-e9ba-48be-ba9c-6156b8304827")
 	)
 	(wire
 		(pts
@@ -1916,7 +1896,6 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 110 183 49 1)
 		)
 		(fill
 			(type none)
@@ -1929,7 +1908,6 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 110 183 49 1)
 		)
 		(fill
 			(type none)
@@ -1942,7 +1920,6 @@
 		(stroke
 			(width 0)
 			(type default)
-			(color 110 183 49 1)
 		)
 		(fill
 			(type none)
@@ -1955,7 +1932,6 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(color 110 183 49 1)
 			)
 			(justify left bottom)
 		)
@@ -1967,7 +1943,6 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(color 110 183 49 1)
 			)
 		)
 		(uuid "7f2ff369-1316-447e-bd1f-ceabb0ea6030")
@@ -1978,7 +1953,6 @@
 		(effects
 			(font
 				(size 2.54 2.54)
-				(color 110 183 49 1)
 			)
 			(justify left bottom)
 		)
@@ -2091,6 +2065,76 @@
 			(project "sa matricom"
 				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
 					(reference "SW5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 214.63 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07d710b7-afd7-4781-bcdf-4b799bf3366b")
+		(property "Reference" "D1"
+			(at 218.44 114.6175 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED"
+			(at 218.44 117.1575 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 214.63 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "46fa7b35-910c-432c-b801-ceadd26181e3")
+		)
+		(pin "2"
+			(uuid "a4ec44a4-868a-4cbb-abb5-110455870dca")
+		)
+		(instances
+			(project "PEP004-V1-matrica_otpornika"
+				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -2229,76 +2273,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 214.63 114.3 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15bb2e2a-e6ed-4d36-b8c4-109a02388cde")
-		(property "Reference" "D2"
-			(at 218.44 114.6175 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 218.44 117.1575 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 214.63 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 214.63 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d42e0333-4837-4464-bee5-ddd4ee41cf5a")
-		)
-		(pin "2"
-			(uuid "bd72b080-7b64-49fe-a2c8-281ea0c4df3b")
-		)
-		(instances
-			(project "sa matricom"
-				(path "/4bec5ddf-adbf-41fb-a069-c7630bb0044a"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 172.72 43.18 0)
 		(unit 1)
@@ -2392,7 +2366,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "PEP_library:R_smd"
 			(at 142.24 44.958 90)
 			(effects
 				(font
@@ -2460,7 +2434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "PEP_library:R_smd"
 			(at 254.508 93.98 90)
 			(effects
 				(font
@@ -2927,7 +2901,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "PEP_library:R_smd"
 			(at 179.578 93.98 90)
 			(effects
 				(font
@@ -3194,7 +3168,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "PEP_library:R_smd"
 			(at 230.378 93.98 90)
 			(effects
 				(font
@@ -3466,7 +3440,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "PEP_library:R_smd"
 			(at 142.24 57.658 90)
 			(effects
 				(font
@@ -3480,6 +3454,8 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.254)
+					(bold yes)
 				)
 				(hide yes)
 			)
@@ -3670,7 +3646,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "PEP_library:R_smd"
 			(at 142.24 70.358 90)
 			(effects
 				(font
@@ -3739,7 +3715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
+		(property "Footprint" "PEP_library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -3807,7 +3783,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "PEP_library:R_smd"
 			(at 142.24 83.058 90)
 			(effects
 				(font
@@ -3996,22 +3972,24 @@
 		(fields_autoplaced yes)
 		(uuid "f26c6d88-de59-4ced-b49f-179de880412e")
 		(property "Reference" "R6"
-			(at 195.58 93.98 90)
+			(at 204.47 92.7099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "100k"
-			(at 198.12 93.98 90)
+		(property "Value" "1k"
+			(at 204.47 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+		(property "Footprint" "PEP_library:R_smd"
 			(at 203.708 93.98 90)
 			(effects
 				(font
