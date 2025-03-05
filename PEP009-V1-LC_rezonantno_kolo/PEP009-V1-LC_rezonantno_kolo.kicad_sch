@@ -1488,7 +1488,7 @@
 	)
 	(text "Kondenzatori"
 		(exclude_from_sim no)
-		(at 147.828 98.044 0)
+		(at 134.366 102.87 0)
 		(effects
 			(font
 				(size 2.54 2.54)

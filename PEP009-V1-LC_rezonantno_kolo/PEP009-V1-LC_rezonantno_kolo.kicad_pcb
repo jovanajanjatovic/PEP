@@ -7170,7 +7170,7 @@
 	(footprint "PEP_library:ele_petnica_logo"
 		(layer "F.Cu")
 		(uuid "cceb9834-2f72-49c1-80bb-5b4a387580ef")
-		(at 149.325 73.7)
+		(at 152.725 74.476394)
 		(property "Reference" "REF**"
 			(at 0.25 -5.5 0)
 			(unlocked yes)
