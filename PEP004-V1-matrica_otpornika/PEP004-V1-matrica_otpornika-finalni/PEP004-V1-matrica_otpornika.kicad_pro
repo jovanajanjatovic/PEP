@@ -224,6 +224,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -447,8 +448,8 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "PEP004-V1-matrica_otpornika-finalni.kicad_pro",
-    "version": 1
+    "filename": "PEP004-V1-matrica_otpornika.kicad_pro",
+    "version": 3
   },
   "net_settings": {
     "classes": [
@@ -463,6 +464,7 @@
         "microvia_drill": 0.1,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -471,7 +473,7 @@
       }
     ],
     "meta": {
-      "version": 3
+      "version": 4
     },
     "net_colors": null,
     "netclass_assignments": null,
@@ -585,7 +587,7 @@
         "version": 0
       },
       "model_mode": 0,
-      "workbook_filename": "PEP004-V1-matrica_otpornika-finalni.wbk"
+      "workbook_filename": "PEP004-V1-matrica_otpornika.wbk"
     },
     "page_layout_descr_file": "",
     "plot_directory": "",
