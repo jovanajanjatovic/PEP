@@ -18,12 +18,12 @@
     "selection_filter": {
       "dimensions": false,
       "footprints": false,
-      "graphics": false,
+      "graphics": true,
       "keepouts": false,
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": true,
+      "text": false,
       "tracks": false,
       "vias": false,
       "zones": false
@@ -49,7 +49,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_0ffffbf7_5fd5f5f7",
+    "visible_layers": "00000000_00000000_0ffffbf7_5755555a",
     "zone_display_mode": 0
   },
   "git": {
