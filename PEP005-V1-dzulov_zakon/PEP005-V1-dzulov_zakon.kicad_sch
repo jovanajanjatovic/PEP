@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "4bec5ddf-adbf-41fb-a069-c7630bb0044a")
 	(paper "A5")
 	(title_block
@@ -11,7 +11,9 @@
 	(lib_symbols
 		(symbol "Connector:Conn_01x01_Socket"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -98,9 +100,9 @@
 					)
 				)
 				(arc
-					(start 0 0.508)
+					(start 0 -0.508)
 					(mid -0.5058 0)
-					(end 0 -0.508)
+					(end 0 0.508)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -128,10 +130,13 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Connector:Screw_Terminal_01x02"
 			(pin_names
-				(offset 1.016) hide)
+				(offset 1.016)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -208,9 +213,10 @@
 						(type background)
 					)
 				)
-				(circle
-					(center 0 -2.54)
-					(radius 0.635)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -233,7 +239,7 @@
 				)
 				(polyline
 					(pts
-						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
 					)
 					(stroke
 						(width 0.1524)
@@ -255,10 +261,9 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy -0.3556 0.508) (xy 0.508 -0.3302)
-					)
+				(circle
+					(center 0 0)
+					(radius 0.635)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -268,7 +273,7 @@
 					)
 				)
 				(circle
-					(center 0 0)
+					(center 0 -2.54)
 					(radius 0.635)
 					(stroke
 						(width 0.1524)
@@ -315,9 +320,12 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -436,6 +444,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Heatsink"
 			(pin_names
@@ -534,6 +543,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -616,6 +626,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Simulation_SPICE:0"
 			(power)
@@ -695,7 +706,8 @@
 			(symbol "0_1_1"
 				(pin power_in line
 					(at 0 0 0)
-					(length 0) hide
+					(length 0)
+					(hide yes)
 					(name "0"
 						(effects
 							(font
@@ -712,7 +724,97 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(rectangle
+		(start 12.065 12.065)
+		(end 69.85 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 38749e43-3110-4f59-8ac6-76775dd37de5)
+	)
+	(rectangle
+		(start 12.065 104.14)
+		(end 83.82 135.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 81b9c5dc-703e-43b5-ad34-0becdc64748b)
+	)
+	(rectangle
+		(start 69.85 12.065)
+		(end 192.405 104.14)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bb8bf397-fe9e-4f27-83cf-da3cfbf8f5c0)
+	)
+	(text "zamneljivi i zapaljiv otpornik\n"
+		(exclude_from_sim no)
+		(at 156.21 54.864 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "040f15a7-7951-4e32-bb54-2aea3ef70837")
+	)
+	(text "Rupe za montiranje\n"
+		(exclude_from_sim no)
+		(at 17.78 109.22 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a4bf67d-83bf-4c30-a6e3-5f60222c600a")
+	)
+	(text "otpornik okružen bakrom\n"
+		(exclude_from_sim no)
+		(at 77.216 61.468 90)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "32650bd4-8c7e-4d1e-913c-aae32b3ac648")
+	)
+	(text "Konektor za napajanje"
+		(exclude_from_sim no)
+		(at 12.7 17.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "7adc5d2b-b8ad-46b4-be92-74dfb29a0d16")
+	)
+	(text "Otpornici sa gradijentom disipacije\n"
+		(exclude_from_sim no)
+		(at 71.12 17.78 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0f6d9b0-5a3e-47ab-948b-323d2eea09f2")
 	)
 	(junction
 		(at 114.3 30.48)
@@ -923,95 +1025,6 @@
 			(type default)
 		)
 		(uuid "fadeaa3c-c377-44cb-9925-eb8595a3bf14")
-	)
-	(rectangle
-		(start 12.065 12.065)
-		(end 69.85 104.14)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 38749e43-3110-4f59-8ac6-76775dd37de5)
-	)
-	(rectangle
-		(start 12.065 104.14)
-		(end 83.82 135.89)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 81b9c5dc-703e-43b5-ad34-0becdc64748b)
-	)
-	(rectangle
-		(start 69.85 12.065)
-		(end 192.405 104.14)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid bb8bf397-fe9e-4f27-83cf-da3cfbf8f5c0)
-	)
-	(text "zamneljivi i zapaljiv otpornik\n"
-		(exclude_from_sim no)
-		(at 156.21 54.864 90)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "040f15a7-7951-4e32-bb54-2aea3ef70837")
-	)
-	(text "Rupe za montiranje\n"
-		(exclude_from_sim no)
-		(at 17.78 109.22 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "2a4bf67d-83bf-4c30-a6e3-5f60222c600a")
-	)
-	(text "otpornik okružen bakrom\n"
-		(exclude_from_sim no)
-		(at 77.216 61.468 90)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "32650bd4-8c7e-4d1e-913c-aae32b3ac648")
-	)
-	(text "Konektor za napajanje"
-		(exclude_from_sim no)
-		(at 12.7 17.78 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "7adc5d2b-b8ad-46b4-be92-74dfb29a0d16")
-	)
-	(text "Otpornici sa gradijentom disipacije\n"
-		(exclude_from_sim no)
-		(at 71.12 17.78 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0f6d9b0-5a3e-47ab-948b-323d2eea09f2")
 	)
 	(global_label "Input voltage"
 		(shape input)
@@ -1339,7 +1352,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100"
 			(at 84.328 58.928 0)
 			(effects
 				(font
@@ -1356,7 +1369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705871070658560"
 			(at 90.17 58.42 0)
 			(effects
 				(font
@@ -1366,6 +1379,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C17900"
+			(at 90.17 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Footprint" "1206"
 			(at 90.17 58.42 0)
 			(effects
 				(font
@@ -1425,7 +1456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2301061230_DORABO-DB127V-5-08-2P-GN-S_C3018698.pdf"
 			(at 48.26 53.34 0)
 			(effects
 				(font
@@ -1435,6 +1466,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 48.26 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C3018698"
 			(at 48.26 53.34 0)
 			(effects
 				(font
@@ -1475,7 +1515,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 119.888 58.928 0)
 			(effects
 				(font
@@ -1492,7 +1532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705871070658560"
 			(at 125.73 58.42 0)
 			(effects
 				(font
@@ -1502,6 +1542,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C17900"
+			(at 125.73 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Footprint" "1206"
 			(at 125.73 58.42 0)
 			(effects
 				(font
@@ -1673,7 +1731,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "1k"
 			(at 108.458 58.928 0)
 			(effects
 				(font
@@ -1690,7 +1748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705871070658560"
 			(at 114.3 58.42 0)
 			(effects
 				(font
@@ -1700,6 +1758,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C17900"
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Footprint" "1206"
 			(at 114.3 58.42 0)
 			(effects
 				(font
@@ -2002,7 +2078,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100"
 			(at 97.028 58.928 0)
 			(effects
 				(font
@@ -2019,7 +2095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579705871070658560"
 			(at 102.87 58.42 0)
 			(effects
 				(font
@@ -2029,6 +2105,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C17900"
+			(at 102.87 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Footprint" "1206"
 			(at 102.87 58.42 0)
 			(effects
 				(font
@@ -2192,4 +2286,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
