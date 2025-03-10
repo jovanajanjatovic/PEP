@@ -1,7 +1,7 @@
 (footprint "JP_silk_symbol"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -21,19 +21,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6e4d335f-24d0-4719-b1e3-2d50691c866b")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 6.84 3.19 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "49bb6608-cd7e-4d8c-9aa8-38e41da96264")
 		(effects
 			(font
 				(size 1 1)
@@ -105,7 +92,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.SilkS")
 		(uuid "16ec75bc-f1f0-4e8a-81bf-8eeacb7a401e")
 	)
@@ -116,7 +103,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.SilkS")
 		(uuid "adb63f48-f0d3-450b-a822-e4f31d07d237")
 	)
@@ -127,7 +114,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.SilkS")
 		(uuid "1d19afa8-f30c-468b-90f6-802938e76284")
 	)
@@ -138,7 +125,7 @@
 			(width 0.15)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "B.SilkS")
 		(uuid "18f42ab9-fef1-450f-a920-dec5f1bcd923")
 	)
@@ -162,4 +149,5 @@
 			"d263f0fb-da25-427f-8de3-add9bb1a69f1"
 		)
 	)
+	(embedded_fonts no)
 )
